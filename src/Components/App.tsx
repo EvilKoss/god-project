@@ -3,6 +3,8 @@ import { AppStyled } from "./AppStyled";
 import Navigation from "./navigation/Navigation";
 import { Routes, Route } from "react-router-dom";
 import NotFoundPage from "../pages/notFoundPage";
+import CounterPage from "../pages/counterPage/CounterPage";
+import CreatorPage from "../pages/creatorPage/CreatorPage";
 
 // 1. Сохранение данных в local Storage
 // 2. Прописать карточку игрока

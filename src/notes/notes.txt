@@ -1,0 +1,42 @@
+G.O.D project Stack:
+1. React
+2. TypeScript
+3. MaterialUI
+4. PostgresQL
+5. TypeORM
+6. Fastify
+
+DB - PostgresQL
+ORM - TypeORM
+Backend - Fastify
+
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+extentions to install:
+
+auto close tag
+auto import
+auto rename tag
+Better comments
+Code runner
+--
+Code write activity tracker
+--
+Colorize
+ENV
+ES7+ React/Redux/React-Native snippets
+ESLint
+Formating toggle
+HTML CSS support
+JavaScript (ES6) code snippets
+Live Sass Compiler
+Live server
+Live share
+Omni Theme
+Prettier - code formatter
+React Component Generator
+React-Native/React/Redux snippets for es6/ES7
+Settings Sync
+Thunder Client
+vscode-styled-components
+-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --

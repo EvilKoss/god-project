@@ -2,15 +2,15 @@ import { CounterStyled } from "./CounterStyled";
 import Weather from "../common/Weather";
 import SetDate from "./setDate/SetDate";
 import TimeOperator from "./timeOperator/TimeOperator";
-import store from "../../redux/store";
-import { myAction } from "../../redux/actions";
+// import store from "../../redux/store";
+// import { myAction } from "../../redux/actions";
 
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 
 // console.log(store);
 
-console.log("myStore.getState:", store.getState());
-console.log("myStore.dispatch(myAction):", store.dispatch(myAction));
+// console.log("myStore.getState:", store.getState());
+// console.log("myStore.dispatch(myAction):", store.dispatch(myAction));
 
 const Counter = () => {
   return (
@@ -35,4 +35,4 @@ const Counter = () => {
   );
 };
 
-export default connect()(Counter);
+export default Counter;

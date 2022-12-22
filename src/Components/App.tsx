@@ -1,11 +1,14 @@
 import React from "react";
 import { AppStyled } from "./AppStyled";
-import Navigation from "./navigation/Navigation";
-import { Routes, Route } from "react-router-dom";
-import NotFoundPage from "../pages/notFoundPage/notFoundPage";
+// import Navigation from "./navigation/Navigation";
+// import { Routes, Route } from "react-router-dom";
+// import NotFoundPage from "../pages/notFoundPage/notFoundPage";
 import CounterPage from "../pages/counterPage/CounterPage";
 import Header from "../pages/header/Header";
 // import CreatorPage from "../pages/creatorPage/CreatorPage";
+
+
+import Temp from './temp/Temp'
 
 // 1. Сохранение данных в local Storage
 // 2. Прописать карточку игрока
@@ -27,6 +30,7 @@ function App() {
         {/* <NotFoundPage /> */}
         <Header />
         <CounterPage />
+        <Temp />
 
         {/* <Navigation />
         <Routes>
